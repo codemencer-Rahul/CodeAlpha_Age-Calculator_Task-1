@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(219, 225, 103, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.age-container{
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.age-header{
+    font-size: 2rem;
+    font-weight: 650;
+    margin-bottom: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#age-dob-input{
+    font-size: 1.1rem;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#cal-btn{
+    font-size: 1.1rem;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+}
